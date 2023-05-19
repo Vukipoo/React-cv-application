@@ -3,6 +3,6 @@ import React from 'react'
 
 export default function Header() {
     return (
-        <div class="header">CV APPLICATION</div>
+        <div className="header">CV APPLICATION</div>
     )
 }

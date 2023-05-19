@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function () {
   return (
-    <div class='exp_div'>
+    <div className="exp_div">
         <h2>Experience</h2>
 
         <input type='text' placeholder='Position'/>
@@ -11,8 +11,8 @@ export default function () {
         <input type='text' placeholder='From'/>
         <input type='text' placeholder='To'/>
 
-        <button class='exp_btn'>Add</button>
-        <button class='exp_btn'>Delete</button>
+        <button className="exp_btn">Add</button>
+        <button className="exp_btn">Delete</button>
 
     </div>
   )

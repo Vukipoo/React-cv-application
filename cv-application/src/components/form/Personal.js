@@ -3,7 +3,7 @@ import React from 'react'
 export default function Personal() {
   return (
 
-    <div class="personal_div">
+    <div className="personal_div">
 
     <h2>Personal information</h2>
 

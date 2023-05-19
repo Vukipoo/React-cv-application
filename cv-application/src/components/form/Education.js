@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Education() {
   return (
-    <div class='education_div'>
+    <div className="education_div">
 
     <h2>Education</h2>
 
@@ -10,8 +10,8 @@ export default function Education() {
     <input type='text' placeholder='City' />
     <input type='text' placeholder='Degree' />
 
-    <button class='edu_btn'>Add</button>
-    <button class='edu_btn'>Delete</button>
+    <button className="edu_btn">Add</button>
+    <button className="edu_btn">Delete</button>
 
 
     </div>

@@ -5,6 +5,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 code {
@@ -21,7 +24,7 @@ code {
   display: flex;
   font-size: 30px;
   color: white;
-}
+  }
 
 .personal_div{
   display: flex;
@@ -29,6 +32,7 @@ code {
   justify-content: center;
   padding-left: 100px;
   padding-right: 100px;
+  
 
 }
 
@@ -89,4 +93,42 @@ code {
   margin-top: 5px;
   margin-bottom: 5px;
   font-size: 20px;
+}
+
+.appDiv{
+  border-radius: 5px;
+  background-color: white;
+}
+
+.result-header{
+  background-color: rgb(20, 20, 112);
+  color:white;
+  border-radius: 5px;
+}
+
+.result{
+  display: flex;
+  flex-direction: column;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.side-bar img {
+  height: 200px;
+  width: 200px;
+}
+
+.side-bar{
+  width: 250px;
+  position: relative;
+  left: 680px
+}
+
+
+.content {
+  position: relative;
+  bottom: 350px;
+  display: flex;
+  flex-direction: column;
+  gap: 75px
 }
